@@ -1996,16 +1996,7 @@
 			}
 		}
 
-		/**
-		 * UI To Top
-		 * @description Enables ToTop Button
-		 */
-		if (isDesktop && !isNoviBuilder) {
-			$().UItoTop({
-				easingType: 'easeOutQuart',
-				containerClass: 'ui-to-top fa fa-angle-up'
-			});
-		}
+	
 
 		/**
 		 * Circle Progress
