@@ -3155,9 +3155,9 @@ code {
     padding: 9px 16px;
     margin-left: auto;
     margin-right: auto;
-    color: #fff;
+    color: black;
     text-align: left;
-    background-color: #242731;
+    background-color: white;
     border-radius: 0;
     box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.09);
 }
@@ -3177,8 +3177,6 @@ code {
 
 .snackbars-right {
     display: inline-block;
-    float: right;
-    text-transform: uppercase;
 }
 
 .snackbars-right:hover {
@@ -23029,27 +23027,10 @@ html .bg-image-custom {
     border-top: 1px solid #e8e8e8;
 }
 
-.page-footer-default {
-    position: relative;
-    overflow: hidden;
-    color: #90959e;
-    background: #363d41;
-    padding: 30px 0;
+.pre-footer-minimal-inner {
+    background-color: black;
 }
 
-.pre-footer-default+.page-footer-default {
-    margin-top: 0;
-}
-
-.page-footer-default a,
-.page-footer-default a:active,
-.page-footer-default a:focus {
-    color: inherit;
-}
-
-.page-footer-default a:hover {
-    color: #fff;
-}
 
 @media (min-width: 992px) {
     .pre-footer-header {
@@ -46519,7 +46500,3 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 /*# sourceMappingURL=style.css.map */
-
-.pre-footer-minimal-inner {
-    background-color: black;
-}
