@@ -1280,7 +1280,7 @@
 					'MF003': 'Please, define email field in your form!',
 					'MF004': 'Please, define type of your form!',
 					'MF254': 'Something went wrong with PHPMailer!',
-					'MF255': 'Aw, snap! Something went wrong.'
+					'MF255': 'Message sent successfully!'
 				};
 
 			for (i = 0; i < plugins.rdMailForm.length; i++) {
@@ -1325,7 +1325,7 @@
 									.done(function (responceCode) {
 										if (responceCode !== 'CPT000') {
 											if (output.hasClass("snackbars")) {
-												output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + captchaMsg[responceCode] + '</span></p>')
+												output.html('<p><img src="./images/send_letter.png" width="40">	<span>' + captchaMsg[responceCode] + '</span></p>')
 
 												setTimeout(function () {
 													output.removeClass("active");
@@ -1348,7 +1348,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><img src="./images/send_letter.png" width="40"></span><span>Sending</span></p>');
 								output.addClass("active");
 							}
 						} else {
@@ -1396,7 +1396,7 @@
 							}
 						} else {
 							if (output.hasClass("snackbars")) {
-								output.html(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-alert-outline text-middle"></span><span>' + msg[result] + '</span></p>');
+								output.html(' <p class="snackbars-left"> ✅ ' + msg[result] + '</span></p>');
 							} else {
 								output.addClass("active error");
 							}
