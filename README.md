@@ -1,3 +1,3 @@
 # Portfolio
 
-<img src="./Design/Desktop.jpg" />
+<img src="./images/hero-image-github.jpg" />
