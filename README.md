@@ -1,3 +1,3 @@
 # Portfolio
 
-<img src="../Design/Desktop.jpg" />
+<img src="./Design/Desktop.jpg" />
